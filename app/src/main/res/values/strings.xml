@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">I Got U</string>
     <string name="action_settings">Settings</string>
+    <string name="main_screen_title">Dashboard</string>
+    <string name="dashboard_tab_1">Balances</string>
+    <string name="dashboard_tab_2">Contacts</string>
 </resources>
