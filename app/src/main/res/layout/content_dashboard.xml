@@ -60,6 +60,21 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:id="@+id/edit_message"
+                        android:contentDescription="Add a public key"
+                        android:hint="PUBLIC KEY" />
+
+                    <Button
+                        android:text="Add Public Key"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button2"
+                        android:onClick="addPublicKey"/>
                 </LinearLayout>
 
                 <LinearLayout
